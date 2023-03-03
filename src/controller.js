@@ -27,7 +27,7 @@ exports.getCityData = async (req, res) => {
     res.set("content-type", "application/json").status(404).json({
       status: "fail",
       message: err.message,
-      err
+      
     });
   }
 };
